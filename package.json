@@ -1,0 +1,16 @@
+{
+  "name": "los-simuladores-bot",
+  "version": "1.0.0",
+  "description": "the simuladores' bot, with a lot of phrases",
+  "main": "app.js",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Federico Gonzalez",
+  "license": "ISC"
+}
