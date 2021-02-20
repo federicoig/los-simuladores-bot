@@ -23,7 +23,10 @@ bot.on("message", message => {
     //console.log(message.content)
     if (message.content.toLowerCase() === `!ls`){
         console.log("Tortuga marítima, envié una frase.")
-        message.channel.send(randomPhraseSelector(phrases))     
+        message.channel.send({embed: {
+            color: 9331043,
+            description: randomPhraseSelector(phrases)
+        }})        
     }
     else if (message.content.toLowerCase() === `!ayuda`){
         message.channel.send({embed: {
