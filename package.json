@@ -4,7 +4,7 @@
   "description": "the simuladores' bot, with a lot of phrases",
   "main": "app.js",
   "dependencies": {
-    "discord.js": "^12.2.0"
+    "discord.js": "^12.5.1"
   },
   "devDependencies": {},
   "scripts": {
